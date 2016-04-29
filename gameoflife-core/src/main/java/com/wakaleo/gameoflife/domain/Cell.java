@@ -1,6 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
+    // ne faudrait-il pas passer par des constantes ?
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
